@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import settings from "@/data/settings.json";
 import profile from "@/data/profile.json";
 
-const BASE_URL = settings.siteUrl;
+const BASE_URL = settings.siteUrl.replace(/\/$/, "");
 
 export function buildMetadata({
   title,
