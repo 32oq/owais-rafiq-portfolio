@@ -1,0 +1,222 @@
+[
+  {
+    "id": "frontend",
+    "title": "Frontend",
+    "description": "Crafting responsive, accessible, and performant user interfaces",
+    "icon": "Monitor",
+    "skills": [
+      {
+        "id": "react",
+        "name": "React.js",
+        "icon": "⚛️",
+        "proficiency": "advanced",
+        "yearsOfExperience": 2,
+        "description": "Hooks, context, custom hooks, performance optimisation",
+        "featured": true
+      },
+      {
+        "id": "nextjs",
+        "name": "Next.js",
+        "icon": "▲",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 1,
+        "description": "App Router, SSG, SSR, API routes",
+        "featured": true
+      },
+      {
+        "id": "html5",
+        "name": "HTML5",
+        "icon": "🌐",
+        "proficiency": "expert",
+        "yearsOfExperience": 4,
+        "description": "Semantic markup, accessibility, web APIs",
+        "featured": false
+      },
+      {
+        "id": "css3",
+        "name": "CSS3",
+        "icon": "🎨",
+        "proficiency": "advanced",
+        "yearsOfExperience": 4,
+        "description": "Flexbox, Grid, animations, responsive design",
+        "featured": false
+      },
+      {
+        "id": "tailwind",
+        "name": "Tailwind CSS",
+        "icon": "💨",
+        "proficiency": "advanced",
+        "yearsOfExperience": 2,
+        "description": "Utility-first CSS with custom design systems",
+        "featured": true
+      },
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "icon": "🟨",
+        "proficiency": "expert",
+        "yearsOfExperience": 4,
+        "description": "ES2024+, async/await, DOM, Web APIs",
+        "featured": true
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "icon": "🔷",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 1,
+        "description": "Type safety, generics, utility types",
+        "featured": true
+      }
+    ]
+  },
+  {
+    "id": "backend",
+    "title": "Backend",
+    "description": "Building robust, scalable server-side systems and APIs",
+    "icon": "Server",
+    "skills": [
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "icon": "🟢",
+        "proficiency": "expert",
+        "yearsOfExperience": 3,
+        "description": "REST APIs, microservices, streaming, performance",
+        "featured": true
+      },
+      {
+        "id": "expressjs",
+        "name": "Express.js",
+        "icon": "🚂",
+        "proficiency": "expert",
+        "yearsOfExperience": 3,
+        "description": "Middleware, routing, authentication, MVC patterns",
+        "featured": true
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "icon": "🍃",
+        "proficiency": "advanced",
+        "yearsOfExperience": 2,
+        "description": "Aggregation pipelines, indexing, Mongoose ODM",
+        "featured": true
+      },
+      {
+        "id": "sql",
+        "name": "SQL",
+        "icon": "🗃️",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 2,
+        "description": "MySQL, PostgreSQL, query optimisation, joins",
+        "featured": false
+      },
+      {
+        "id": "rest-api",
+        "name": "REST APIs",
+        "icon": "🔗",
+        "proficiency": "expert",
+        "yearsOfExperience": 3,
+        "description": "Design, versioning, documentation, authentication",
+        "featured": true
+      }
+    ]
+  },
+  {
+    "id": "mobile",
+    "title": "Mobile",
+    "description": "Cross-platform mobile apps for iOS and Android",
+    "icon": "Smartphone",
+    "skills": [
+      {
+        "id": "flutter",
+        "name": "Flutter",
+        "icon": "🐦",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 1,
+        "description": "Cross-platform iOS/Android development with Dart",
+        "featured": true
+      },
+      {
+        "id": "dart",
+        "name": "Dart",
+        "icon": "🎯",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 1,
+        "description": "Object-oriented Dart for Flutter development",
+        "featured": false
+      }
+    ]
+  },
+  {
+    "id": "tools",
+    "title": "Tools & DevOps",
+    "description": "Development workflow, version control, and deployment tools",
+    "icon": "Wrench",
+    "skills": [
+      {
+        "id": "git",
+        "name": "Git",
+        "icon": "📦",
+        "proficiency": "advanced",
+        "yearsOfExperience": 3,
+        "description": "Branching strategies, CI/CD integration, code review",
+        "featured": true
+      },
+      {
+        "id": "npm",
+        "name": "npm / yarn",
+        "icon": "📦",
+        "proficiency": "advanced",
+        "yearsOfExperience": 3,
+        "description": "Package management, scripts, monorepo",
+        "featured": false
+      },
+      {
+        "id": "linux",
+        "name": "Linux / CLI",
+        "icon": "🐧",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 2,
+        "description": "Shell scripting, server management, deployment",
+        "featured": false
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "icon": "🐳",
+        "proficiency": "beginner",
+        "yearsOfExperience": 1,
+        "description": "Containerisation, Docker Compose",
+        "featured": false
+      }
+    ]
+  },
+  {
+    "id": "languages",
+    "title": "Programming Languages",
+    "description": "Core programming languages across different paradigms",
+    "icon": "Code",
+    "skills": [
+      {
+        "id": "c",
+        "name": "C",
+        "icon": "🔵",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 2,
+        "description": "Systems programming, data structures, algorithms",
+        "featured": false
+      },
+      {
+        "id": "cpp",
+        "name": "C++",
+        "icon": "🔷",
+        "proficiency": "intermediate",
+        "yearsOfExperience": 2,
+        "description": "OOP, STL, competitive programming",
+        "featured": false
+      }
+    ]
+  }
+]

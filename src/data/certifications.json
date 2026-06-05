@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cert-js",
+    "title": "JavaScript Algorithms and Data Structures",
+    "issuer": "freeCodeCamp",
+    "issuerLogo": "/images/certs/freecodecamp.svg",
+    "date": "2022-04-10",
+    "expiryDate": null,
+    "credentialId": "fcc-js-owais",
+    "credentialUrl": "https://www.freecodecamp.org/certification/owais/javascript-algorithms-and-data-structures",
+    "description": "Covers ES6+, regular expressions, debugging, data structures, OOP, functional programming, and classic algorithm challenges.",
+    "skills": ["JavaScript", "Algorithms", "Data Structures", "ES6", "OOP"],
+    "featured": true
+  },
+  {
+    "id": "cert-responsive",
+    "title": "Responsive Web Design",
+    "issuer": "freeCodeCamp",
+    "issuerLogo": "/images/certs/freecodecamp.svg",
+    "date": "2021-11-20",
+    "expiryDate": null,
+    "credentialId": "fcc-rwd-owais",
+    "credentialUrl": "https://www.freecodecamp.org/certification/owais/responsive-web-design",
+    "description": "Semantic HTML, CSS Grid, Flexbox, accessibility, and responsive design principles.",
+    "skills": ["HTML5", "CSS3", "Responsive Design", "Accessibility"],
+    "featured": true
+  },
+  {
+    "id": "cert-nodejs",
+    "title": "The Complete Node.js Developer Course",
+    "issuer": "Udemy",
+    "issuerLogo": "/images/certs/udemy.svg",
+    "date": "2022-08-15",
+    "expiryDate": null,
+    "credentialId": "udemy-nodejs-owais",
+    "credentialUrl": null,
+    "description": "REST API design, Express.js, MongoDB, authentication, real-time web apps with Socket.io.",
+    "skills": ["Node.js", "Express.js", "MongoDB", "REST API", "Socket.io"],
+    "featured": true
+  }
+]

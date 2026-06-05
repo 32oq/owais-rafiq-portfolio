@@ -1,0 +1,38 @@
+[
+  {
+    "id": "t1",
+    "name": "Arjun Sharma",
+    "role": "Senior Engineering Manager",
+    "company": "Justdial",
+    "avatar": null,
+    "content": "Owais consistently delivers clean, well-documented Node.js code. His ability to optimise MongoDB queries and reduce latency across our APIs has been a real asset to the team. He brings both technical depth and a collaborative spirit.",
+    "rating": 5,
+    "date": "2024-03-15",
+    "featured": true,
+    "linkedinUrl": null
+  },
+  {
+    "id": "t2",
+    "name": "Priya Nair",
+    "role": "Product Manager",
+    "company": "Justdial",
+    "avatar": null,
+    "content": "What stands out about Owais is his ownership. He doesn't just implement tickets — he asks the right questions, flags edge cases early, and always thinks about the user experience. It makes the whole development process smoother.",
+    "rating": 5,
+    "date": "2024-05-10",
+    "featured": true,
+    "linkedinUrl": null
+  },
+  {
+    "id": "t3",
+    "name": "Mohammed Raza",
+    "role": "Freelance Client",
+    "company": "Local Business Owner",
+    "avatar": null,
+    "content": "I hired Owais to build my business website and he delivered beyond expectations. Not only was the site exactly what I envisioned, but he also explained every decision clearly. Communication was excellent throughout.",
+    "rating": 5,
+    "date": "2023-07-20",
+    "featured": true,
+    "linkedinUrl": null
+  }
+]

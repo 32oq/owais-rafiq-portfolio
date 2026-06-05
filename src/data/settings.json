@@ -1,0 +1,40 @@
+{
+  "siteTitle": "🧑 Owais Rafiq (پیر زادہ)",
+  "siteDescription": "Full Stack Engineer from Kashmir, India. Building scalable systems with Node.js, React, and Flutter. Currently at Justdial.",
+  "siteUrl": "https://owaisrafiq.dev",
+  "siteKeywords": [
+    "Owais Rafiq",
+    "Full Stack Engineer",
+    "Node.js Developer",
+    "React Developer",
+    "Flutter Developer",
+    "Kashmir",
+    "India",
+    "Justdial",
+    "Software Engineer",
+    "Backend Developer"
+  ],
+  "ogImage": "/og/og-default.jpg",
+  "twitterHandle": "@Owais__rafiq",
+  "googleAnalyticsId": "",
+  "enableBlog": true,
+  "enableTestimonials": true,
+  "enableCertifications": true,
+  "navigation": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/#about" },
+    { "label": "Skills", "href": "/#skills" },
+    { "label": "Experience", "href": "/#experience" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "Contact", "href": "/#contact" }
+  ],
+  "footerLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "Resume", "href": "/resume/Owais-Rafiq-Resume.pdf", "external": true }
+  ],
+  "accentColor": "#6366f1",
+  "copyrightYear": 2024
+}

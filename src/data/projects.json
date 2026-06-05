@@ -1,0 +1,187 @@
+[
+  {
+    "id": "kashmir-marketplace",
+    "slug": "kashmir-marketplace",
+    "title": "Kashmir Marketplace",
+    "tagline": "A modern e-commerce platform for Kashmir's artisans",
+    "description": "A full-stack e-commerce application connecting Kashmir's traditional artisans with buyers worldwide, featuring real-time inventory management and secure payments.",
+    "longDescription": "Kashmir Marketplace was built to solve a real problem — local artisans in Kashmir had no digital platform to reach global buyers. I designed and built the entire full-stack solution using Next.js for the frontend and Node.js/MongoDB for the backend. The platform supports multiple sellers, real-time inventory, and a clean browsing experience that puts the craftsmanship front and centre.",
+    "coverImage": "/images/projects/kashmir-marketplace.jpg",
+    "images": ["/images/projects/kashmir-marketplace.jpg"],
+    "category": "fullstack",
+    "tags": ["E-commerce", "Next.js", "Node.js", "MongoDB", "Tailwind"],
+    "techStack": ["Next.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    "links": [
+      { "type": "github", "url": "https://github.com/32oq", "label": "Source Code" }
+    ],
+    "status": "in-progress",
+    "featured": true,
+    "year": 2024,
+    "highlights": [
+      "Multi-vendor support with individual seller dashboards",
+      "Real-time inventory tracking and order management",
+      "Mobile-first responsive design",
+      "Secure authentication with JWT"
+    ],
+    "role": "Full Stack Developer",
+    "duration": "3 months",
+    "challenges": "Building a multi-vendor system with complex data relationships while keeping the UI intuitive for non-technical artisans.",
+    "outcome": "Platform launched with 20+ artisans onboarded in the first month.",
+    "order": 1
+  },
+  {
+    "id": "nature-captures",
+    "slug": "nature-captures",
+    "title": "Nature Captures",
+    "tagline": "A platform for photographers to showcase their work",
+    "description": "A photography showcase platform where photographers can create profiles, upload high-resolution photos, and build an audience.",
+    "longDescription": "Nature Captures was my first serious full-stack project — a platform for photographers to share their work. Users can create accounts, upload photos with metadata, and browse a curated feed. I focused heavily on performance, using lazy loading and optimised image delivery to keep load times fast even with large, high-resolution images.",
+    "coverImage": "/images/projects/nature-captures.jpg",
+    "images": ["/images/projects/nature-captures.jpg"],
+    "category": "web",
+    "tags": ["Photography", "Gallery", "JavaScript", "Bootstrap"],
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+    "links": [
+      { "type": "live", "url": "https://32oq.github.io/nature-captures/", "label": "Live Site" },
+      { "type": "github", "url": "https://github.com/32oq/nature-captures", "label": "Source Code" }
+    ],
+    "status": "live",
+    "featured": true,
+    "year": 2022,
+    "highlights": [
+      "Responsive photo grid with masonry layout",
+      "Lazy loading for optimised performance",
+      "Full-screen image viewer with keyboard navigation",
+      "Mobile-optimised touch gestures"
+    ],
+    "role": "Developer & Designer",
+    "duration": "2 weeks",
+    "challenges": "Achieving fast page loads with large, high-resolution images while keeping the design elegant and distraction-free.",
+    "outcome": "Clean, minimal photography showcase with excellent performance scores.",
+    "order": 2
+  },
+  {
+    "id": "simons-game",
+    "slug": "simons-game",
+    "title": "Simon's Game",
+    "tagline": "Classic memory game — how far can you go?",
+    "description": "An interactive browser-based implementation of the classic Simon memory game with increasing difficulty levels and sound effects.",
+    "longDescription": "A faithful recreation of the classic Simon memory game, built to sharpen my JavaScript and DOM manipulation skills. The game generates increasingly complex colour sequences that the player must repeat. I added keyboard support and sound synthesis using the Web Audio API for a complete, accessible experience.",
+    "coverImage": "/images/projects/simons-game.jpg",
+    "images": ["/images/projects/simons-game.jpg"],
+    "category": "game",
+    "tags": ["Game", "JavaScript", "Web Audio API", "jQuery"],
+    "techStack": ["HTML5", "CSS3", "JavaScript", "jQuery", "Web Audio API"],
+    "links": [
+      { "type": "live", "url": "https://32oq.github.io/Simons-Game/", "label": "Play Game" },
+      { "type": "github", "url": "https://github.com/32oq/Simons-Game", "label": "Source Code" }
+    ],
+    "status": "live",
+    "featured": false,
+    "year": 2021,
+    "highlights": [
+      "Multi-level difficulty with no upper limit",
+      "Sound effects via Web Audio API (no assets needed)",
+      "Keyboard and click input support",
+      "High score tracking in localStorage"
+    ],
+    "role": "Developer",
+    "duration": "3 days",
+    "challenges": "Synthesising different tones for each button using only the Web Audio API without loading external sound files.",
+    "outcome": "Engaging game with smooth animations and audio feedback.",
+    "order": 5
+  },
+  {
+    "id": "drum-kit",
+    "slug": "drum-kit",
+    "title": "Drum Kit",
+    "tagline": "Play beats in the browser with keyboard or touch",
+    "description": "A fully interactive browser-based drum kit that responds to keyboard keypresses and touch events with realistic sound synthesis.",
+    "longDescription": "Drum Kit turns your keyboard into a percussion instrument. Each key maps to a different drum sound, with visual feedback on keypress. I built this to explore the Web Audio API and CSS transitions — combining real-time audio with smooth UI animations.",
+    "coverImage": "/images/projects/drum-kit.jpg",
+    "images": ["/images/projects/drum-kit.jpg"],
+    "category": "web",
+    "tags": ["Music", "JavaScript", "CSS Animation", "Interactive"],
+    "techStack": ["HTML5", "CSS3", "JavaScript"],
+    "links": [
+      { "type": "live", "url": "https://32oq.github.io/DrumKit/", "label": "Try It" },
+      { "type": "github", "url": "https://github.com/32oq/DrumKit", "label": "Source Code" }
+    ],
+    "status": "live",
+    "featured": false,
+    "year": 2021,
+    "highlights": [
+      "Real-time keyboard input with zero latency",
+      "CSS press animations on each drum pad",
+      "Touch support for mobile devices",
+      "8 distinct percussion samples"
+    ],
+    "role": "Developer",
+    "duration": "2 days",
+    "challenges": "Minimising audio latency so drum hits feel immediate and responsive.",
+    "outcome": "Fun, responsive drum pad that works on both desktop and mobile.",
+    "order": 4
+  },
+  {
+    "id": "dice-roll",
+    "slug": "dice-roll",
+    "title": "Dice Roll",
+    "tagline": "Fair, instant, two-player dice rolling",
+    "description": "A clean two-player dice rolling app with animated dice faces and instant winner declaration.",
+    "longDescription": "A simple but polished two-player dice roller. I focused on making the UI feel physical — dice have realistic face layouts and a shake animation on roll. Built as an early JavaScript project that helped cement my understanding of DOM manipulation and random number generation.",
+    "coverImage": "/images/projects/dice-roll.jpg",
+    "images": ["/images/projects/dice-roll.jpg"],
+    "category": "web",
+    "tags": ["JavaScript", "CSS Animation", "Game"],
+    "techStack": ["HTML5", "CSS3", "JavaScript"],
+    "links": [
+      { "type": "live", "url": "https://32oq.github.io/SimpleDiceRoll/", "label": "Roll Dice" },
+      { "type": "github", "url": "https://github.com/32oq/SimpleDiceRoll", "label": "Source Code" }
+    ],
+    "status": "live",
+    "featured": false,
+    "year": 2021,
+    "highlights": [
+      "Animated dice roll with CSS shake effect",
+      "Instant winner/loser determination",
+      "Two-player side-by-side layout",
+      "Mobile responsive"
+    ],
+    "role": "Developer",
+    "duration": "1 day",
+    "challenges": "Making the dice faces look visually accurate using only CSS and HTML.",
+    "outcome": "Clean, reusable dice component with smooth animations.",
+    "order": 6
+  },
+  {
+    "id": "shooting-balls",
+    "slug": "shooting-balls",
+    "title": "Shooting Balls",
+    "tagline": "Fast-paced browser shooting game",
+    "description": "A canvas-based shooting game where the player must shoot incoming balls before they reach the shooter.",
+    "longDescription": "Shooting Balls is a fast-paced HTML5 canvas game I built to explore game loop architecture and collision detection. The difficulty scales as the game progresses — balls spawn faster and from random angles. I implemented smooth 60fps rendering using requestAnimationFrame and pure canvas 2D APIs.",
+    "coverImage": "/images/projects/shooting-balls.jpg",
+    "images": ["/images/projects/shooting-balls.jpg"],
+    "category": "game",
+    "tags": ["Game", "Canvas", "JavaScript", "Animation"],
+    "techStack": ["HTML5 Canvas", "CSS3", "JavaScript"],
+    "links": [
+      { "type": "live", "url": "https://32oq.github.io/Shooting-game/", "label": "Play Game" },
+      { "type": "github", "url": "https://github.com/32oq/Shooting-game", "label": "Source Code" }
+    ],
+    "status": "live",
+    "featured": false,
+    "year": 2021,
+    "highlights": [
+      "60fps game loop with requestAnimationFrame",
+      "Progressive difficulty scaling",
+      "Collision detection with bounding-sphere algorithm",
+      "Score tracking and high score persistence"
+    ],
+    "role": "Developer",
+    "duration": "3 days",
+    "challenges": "Implementing accurate collision detection that feels fair to the player at high ball speeds.",
+    "outcome": "Engaging game that runs smoothly across all modern browsers.",
+    "order": 7
+  }
+]

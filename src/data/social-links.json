@@ -1,0 +1,47 @@
+[
+  {
+    "id": "github",
+    "platform": "GitHub",
+    "label": "GitHub",
+    "url": "https://github.com/32oq",
+    "icon": "Github",
+    "username": "32oq",
+    "featured": true
+  },
+  {
+    "id": "linkedin",
+    "platform": "LinkedIn",
+    "label": "LinkedIn",
+    "url": "https://linkedin.com/in/owais-rafiq-24b3a2146",
+    "icon": "Linkedin",
+    "username": "owais-rafiq-24b3a2146",
+    "featured": true
+  },
+  {
+    "id": "twitter",
+    "platform": "X (Twitter)",
+    "label": "Twitter",
+    "url": "https://twitter.com/Owais__rafiq",
+    "icon": "Twitter",
+    "username": "Owais__rafiq",
+    "featured": true
+  },
+  {
+    "id": "instagram",
+    "platform": "Instagram",
+    "label": "Instagram",
+    "url": "https://instagram.com/owais_rafiq",
+    "icon": "Instagram",
+    "username": "owais_rafiq",
+    "featured": false
+  },
+  {
+    "id": "email",
+    "platform": "Email",
+    "label": "Email",
+    "url": "mailto:peerzadaowais36@gmail.com",
+    "icon": "Mail",
+    "username": "peerzadaowais36@gmail.com",
+    "featured": true
+  }
+]

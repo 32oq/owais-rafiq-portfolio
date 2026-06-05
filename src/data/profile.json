@@ -1,0 +1,21 @@
+{
+  "name": "Owais Rafiq",
+  "handle": "پیر زادہ",
+  "title": "Full Stack Engineer & Node.js Specialist",
+  "tagline": "Building scalable systems with clean code and modern architecture",
+  "bio": "I'm a passionate full-stack engineer from Kashmir, India, currently working at Justdial. I specialise in Node.js backend systems, React frontends, and Flutter mobile apps. I believe great software is about solving real problems elegantly — fast, maintainable, and human-centred. When I'm not coding, I'm exploring the mountains of Kashmir or reading about distributed systems.",
+  "shortBio": "Full Stack Engineer from Kashmir. Node.js · React · Flutter. Building software that matters.",
+  "email": "peerzadaowais36@gmail.com",
+  "phone": "+91-7780817803",
+  "location": "Srinagar, Kashmir, India",
+  "timezone": "IST (UTC+5:30)",
+  "avatar": "/images/owais.jpg",
+  "resumeUrl": "/resume/Owais-Rafiq-Resume.pdf",
+  "availableForWork": true,
+  "availabilityNote": "Open to full-time roles and interesting projects",
+  "website": "https://owaisrafiq.dev",
+  "nationality": "Indian",
+  "languages": ["English", "Urdu", "Kashmiri", "Hindi"],
+  "interests": ["Open Source", "System Design", "Mobile Dev", "Photography", "Mountains"],
+  "yearsOfExperience": 3
+}

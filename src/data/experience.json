@@ -1,0 +1,47 @@
+[
+  {
+    "id": "justdial",
+    "company": "Justdial",
+    "companyLogo": "/images/companies/justdial.svg",
+    "companyUrl": "https://www.justdial.com",
+    "role": "Software Engineer — Backend",
+    "type": "full-time",
+    "location": "Bengaluru, Karnataka, India",
+    "locationType": "hybrid",
+    "startDate": "2022-03",
+    "endDate": null,
+    "current": true,
+    "description": "Building and maintaining high-traffic backend systems that serve millions of users across India's largest local search platform.",
+    "achievements": [
+      "Developed and optimised Node.js microservices handling 100k+ daily requests",
+      "Reduced API response latency by 40% through MongoDB query optimisation and indexing strategies",
+      "Built RESTful APIs consumed by web, iOS, and Android clients",
+      "Collaborated with cross-functional teams to deliver features on time",
+      "Introduced code review practices that improved code quality and reduced production bugs by 30%"
+    ],
+    "techStack": ["Node.js", "Express.js", "MongoDB", "Redis", "REST APIs", "Git"],
+    "featured": true
+  },
+  {
+    "id": "freelance",
+    "company": "Freelance",
+    "companyLogo": null,
+    "companyUrl": null,
+    "role": "Full Stack Developer",
+    "type": "freelance",
+    "location": "Remote",
+    "locationType": "remote",
+    "startDate": "2021-06",
+    "endDate": "2022-12",
+    "current": false,
+    "description": "Worked with startups and small businesses to build web applications, landing pages, and custom tools.",
+    "achievements": [
+      "Delivered 10+ projects for clients across India",
+      "Built e-commerce solutions using React and Node.js",
+      "Created photography platform (Nature Captures) with user authentication and galleries",
+      "Maintained 5-star ratings through consistent communication and code quality"
+    ],
+    "techStack": ["React", "Node.js", "Express.js", "MongoDB", "HTML/CSS", "JavaScript"],
+    "featured": true
+  }
+]
