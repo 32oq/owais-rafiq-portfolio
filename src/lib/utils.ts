@@ -5,6 +5,12 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+/** Prepend basePath to /public asset paths — required for GitHub Pages subpath deployment */
+export function assetPath(path: string): string {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  return `${base}${path}`;
+}
+
 /**
  * Returns whole years elapsed since a "YYYY-MM" date string.
  * Safe to call during SSR — pass `now` explicitly for hydration consistency.

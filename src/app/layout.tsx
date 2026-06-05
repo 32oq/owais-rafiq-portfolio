@@ -30,6 +30,7 @@ const tangerine = Tangerine({
 
 const settings = getSettings();
 const socialLinks = getSocialLinks();
+const resumeUrl = `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/resume/Owais-Rafiq-Resume.pdf`;
 
 export const metadata: Metadata = buildMetadata({});
 
@@ -64,7 +65,7 @@ export default function RootLayout({
       >
         <Providers>
           <ScrollProgress />
-          <Navbar navigation={settings.navigation} resumeUrl="/resume/Owais-Rafiq-Resume.pdf" />
+          <Navbar navigation={settings.navigation} resumeUrl={resumeUrl} />
           <main id="main-content" tabIndex={-1}>
             {children}
           </main>

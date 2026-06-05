@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Server, Monitor, Smartphone, Link2, Database, Zap, Globe, Code2 } from "lucide-react";
 import { SectionHeader } from "@/components/shared/SectionHeader";
+import { assetPath } from "@/lib/utils";
 
 const services = [
   {
@@ -110,7 +111,7 @@ export function WhatIDo({ yearsOfExperience }: WhatIDoProps) {
           {/* SVG illustration */}
           <div className="relative flex items-center justify-center px-4 py-6 sm:py-4 sm:px-8">
             <Image
-              src="/images/developer-activity.svg"
+              src={assetPath("/images/developer-activity.svg")}
               alt="Developer activity illustration showing coding and development work"
               width={1144}
               height={617}

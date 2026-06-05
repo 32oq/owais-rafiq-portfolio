@@ -295,7 +295,7 @@ export function Hero({ profile, socialLinks }: HeroProps) {
               >
                 <div className="relative h-full w-full rounded-full overflow-hidden bg-slate-100 dark:bg-slate-900">
                   <Image
-                    src="/images/owais.jpg"
+                    src={profile.avatar}
                     alt={`${profile.name} waving hello`}
                     fill
                     sizes="(max-width: 640px) 220px, 256px"

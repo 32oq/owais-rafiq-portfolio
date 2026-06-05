@@ -6,6 +6,7 @@ import { MapPin, Globe, Clock, Heart, Code2, Briefcase } from "lucide-react";
 import { SectionHeader } from "@/components/shared/SectionHeader";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
+import { assetPath } from "@/lib/utils";
 import type { Profile } from "@/types";
 
 interface AboutProps {
@@ -67,7 +68,7 @@ export function About({ profile }: AboutProps) {
             {/* Developer illustration */}
             <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-indigo-50 to-violet-50 dark:from-indigo-950/30 dark:to-violet-950/30 border border-indigo-100 dark:border-indigo-900/40 p-4">
               <Image
-                src="/images/developer-illustration.svg"
+                src={assetPath("/images/developer-illustration.svg")}
                 alt="Developer at work illustration"
                 width={480}
                 height={320}

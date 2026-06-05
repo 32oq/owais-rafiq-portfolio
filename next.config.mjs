@@ -4,11 +4,15 @@ const isProd = process.env.NODE_ENV === "production";
 const basePath = isProd ? "/owais-rafiq-portfolio" : "";
 
 const nextConfig = {
-  output: "export",           // Static HTML export for GitHub Pages
-  basePath,                   // /owais-rafiq-portfolio in prod, empty in dev
-  trailingSlash: true,        // page/ → page/index.html (GitHub Pages compatible)
+  output: "export",
+  basePath,
+  trailingSlash: true,
   reactStrictMode: true,
   poweredByHeader: false,
+  // Expose basePath so components can prefix /public asset paths manually
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   images: {
     unoptimized: true,        // Required — GitHub Pages has no image server
     formats: ["image/avif", "image/webp"],

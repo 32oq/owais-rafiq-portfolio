@@ -19,18 +19,23 @@ import testimonialsData from "@/data/testimonials.json";
 import certificationsData from "@/data/certifications.json";
 import blogsData from "@/data/blogs.json";
 import settingsData from "@/data/settings.json";
-import { getYearsFrom } from "@/lib/utils";
+import { getYearsFrom, assetPath } from "@/lib/utils";
 
 export function getProfile(): Profile {
   const base = profileData as Profile;
-  // Dynamically calculate experience from Justdial start date
   const justdial = (experienceData as ExperienceItem[]).find(
     (e) => e.id === "justdial"
   );
   const yearsOfExperience = justdial
     ? getYearsFrom(justdial.startDate)
     : base.yearsOfExperience;
-  return { ...base, yearsOfExperience };
+  return {
+    ...base,
+    yearsOfExperience,
+    // Prefix public asset paths with basePath for GitHub Pages subpath deployment
+    avatar: assetPath(base.avatar),
+    resumeUrl: assetPath(base.resumeUrl),
+  };
 }
 
 export function getSocialLinks(featuredOnly = false): SocialLink[] {
